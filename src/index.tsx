@@ -4,14 +4,23 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import Contact from "./content/contact";
+import Projects from "./content/projects";
 import reportWebVitals from "./reportWebVitals";
+import { HashRouter, Route, Routes } from "react-router";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement,
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Projects" element={<Projects />} />
+      </Routes>
+    </HashRouter>
   </React.StrictMode>,
 );
 
