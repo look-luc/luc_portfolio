@@ -6,7 +6,14 @@ function Contact() {
   return (
     <div className="Contact">
       <Navigation_Bar />
-      <div className=""></div>
+      <header className="contact_header">Contact</header>
+      <div className="email_cont">
+        <div className="email">
+          Email me at:
+          <p className="address">luc [dot] denardi [at] colorado [dot] edu</p>
+        </div>
+      </div>
+      <div className="socials"></div>
     </div>
   );
 }

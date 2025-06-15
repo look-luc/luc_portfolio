@@ -1,4 +1,8 @@
 body {
+    background-image: linear-gradient(to bottom right, #8d7334, #a2a4a3);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
         "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
