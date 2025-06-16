@@ -1,5 +1,74 @@
 .Contact {
-    text-align: center;
-    background-image: linear-gradient(to bottom right, #8d7334, #a2a4a3);
-    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: calc(20px + 3vmin);
+    color: black;
+
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+.email_cont {
+    position: static;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: auto;
+
+    background-color: rgba(162, 164, 163, 0.8);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    width: max-content;
+}
+
+.email {
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.email .address {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.social_cont {
+    position: static;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: auto;
+
+    background-color: rgba(162, 164, 163, 0.8);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    width: max-content;
+}
+.socials {
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.socials a {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0px;
 }

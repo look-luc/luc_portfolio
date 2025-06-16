@@ -1,5 +1,4 @@
 .Projects {
-    text-align: center;
-    background-image: linear-gradient(to bottom right, #8d7334, #a2a4a3);
-    min-height: 100vh;
+    display: flex;
+    justify-content: safe;
 }
