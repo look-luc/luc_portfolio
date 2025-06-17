@@ -40,10 +40,18 @@
     gap: 10px;
 }
 
+.email::before {
+    content: "\2709";
+    font-size: 40px;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
 .email .address {
     font-size: 30px;
     font-weight: normal;
     margin: 0px;
+    line-height: 1.2;
 }
 
 .social_cont {
