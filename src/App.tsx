@@ -14,12 +14,12 @@ function App() {
         <div className="about-me">
           <div className="title">About me:</div>
           <p className="about-body">
-            I am an incoming Grad in the CLASIC program at the University of
-            Colorado Boulder.
+            I am an incoming Graduate student in the CLASIC program at the
+            University of Colorado Boulder.
           </p>
           <p className="about-body">
-            I got my BA in linguistics with minors in cognitive science and
-            computer science at the University of Delaware.
+            I got my BA in Linguistics with minors in Cognitive Science and
+            Computer Science at the University of Delaware.
           </p>
         </div>
         <div className="self-image">

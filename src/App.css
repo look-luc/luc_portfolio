@@ -58,8 +58,8 @@
 }
 
 .self-image img {
-    width: 550px;
-    height: 550px;
+    width: calc(3024px / 7);
+    height: calc(4032px / 7);
     padding: 10px;
     box-sizing: border-box;
     backdrop-filter: blur(10px);
