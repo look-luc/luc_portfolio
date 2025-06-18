@@ -23,6 +23,19 @@ function Contact() {
           </a>
         </div>
       </div>
+      <div className="social_cont">
+        <div className="socials">
+          Github:
+          <a href="https://github.com/look-luc"> link to Github</a>
+        </div>
+      </div>
+      <div className="social_cont">
+        <div className="socials">
+          Gitlab:
+          <a href="https://gitlab.com/look-its-luc"> link to Gitlab</a>
+        </div>
+      </div>
+
       <Footer />
     </div>
   );
