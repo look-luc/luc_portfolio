@@ -40,15 +40,6 @@ function Navigation_Bar() {
       >
         Contact
       </Button>
-
-      <Button
-        className={`button ${isPathActive("/cv") ? "active" : "not"}`}
-        onClick={() => {
-          navigate("/cv");
-        }}
-      >
-        CV
-      </Button>
     </div>
   );
 }
