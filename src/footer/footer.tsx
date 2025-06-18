@@ -3,9 +3,11 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
-      <p>&#169; Luc De Nardi. Made from Typescript React App.</p>
-    </div>
+    <footer className="footer">
+      <div>
+        <p>&#169;Luc De Nardi. Made from Typescript and React App framework</p>
+      </div>
+    </footer>
   );
 }
 export default Footer;

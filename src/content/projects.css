@@ -1,4 +1,93 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .Projects {
+    text-align: center;
     display: flex;
-    justify-content: safe;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-header {
+    font-size: calc(20px + 3vmin);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+    opacity: 0;
+    animation: fadeIn 0.25s ease-in-out forwards;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    max-width: 100%;
+    margin-top: 80px;
+
+    opacity: 0;
+    animation: fadeIn 0.25s ease-in-out forwards;
+}
+
+.project-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.projects {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: fit-content;
+}
+
+.projects-title {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.proj-body {
+    font-weight: normal;
+    font-size: 30px;
+    text-align: left;
+}
+.syntax-container {
+    display: flex;
+    justify-content: flex-start; /* This aligns items *inside* syntax-container to the left */
+    gap: 60px;
+    margin-top: -450px;
+    text-align: center;
+    flex-wrap: wrap;
+    align-self: flex-end; /* <--- KEY CHANGE: This aligns the container itself to the right */
+}
+
+.syntax {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: fit-content;
 }

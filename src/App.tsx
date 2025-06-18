@@ -14,7 +14,7 @@ function App() {
       <div className="main-wrapper">
         <div className="about-me-container">
           <div className="about-me">
-            <div className="title">About me</div>
+            <div className="about-me-title">About me</div>
             <p className="about-body">
               I am an incoming Graduate student in the CLASIC program at the
               University of Colorado Boulder.
@@ -31,12 +31,12 @@ function App() {
 
         <div className="interest-container">
           <div className="interest">
-            <div className="title">Research Interest</div>
+            <div className="about-me-title">Research Interest</div>
             <p className="about-body">
               In broad terms, I am interested in nlp work for endangered and low
               recourse languages. I am also particularly interested in semantics
               and phonetics side of both Linguistics and Computational
-              linguistics. I invision to focus on the data analysis and
+              Linguistics. I invision to focus on the data analysis and
               annotation and development of nlp.
             </p>
           </div>
