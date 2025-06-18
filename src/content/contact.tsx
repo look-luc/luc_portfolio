@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
 import Navigation_Bar from "../navigation_bar/navigation_bar";
+import Footer from "../footer/footer";
 
 function Contact() {
   return (
@@ -22,6 +23,7 @@ function Contact() {
           </a>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
