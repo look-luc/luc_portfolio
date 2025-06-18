@@ -1,12 +1,9 @@
-import React from "react";
-import { useNavigate } from "react-router";
 import "./App.css";
 import Navigation_Bar from "./navigation_bar/navigation_bar";
 import Footer from "./footer/footer";
 import self_image from "./assets/self.png";
 
 function App() {
-  const navigate = useNavigate();
   return (
     <div className="App">
       <Navigation_Bar />
