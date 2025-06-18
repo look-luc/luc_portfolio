@@ -1,4 +1,6 @@
 {
+  "homepage": "http://look-luc.github.io/luc_portfolio",
+  "name": "luc_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
