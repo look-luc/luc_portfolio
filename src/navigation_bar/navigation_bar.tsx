@@ -29,7 +29,7 @@ function Navigation_Bar() {
           navigate("/Projects");
         }}
       >
-        Projects
+        Research
       </Button>
 
       <Button
