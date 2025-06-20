@@ -5,7 +5,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import Contact from "./content/contact";
-import Projects from "./content/projects";
+import Research from "./content/research";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter, Route, Routes } from "react-router";
 
@@ -18,7 +18,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Research" element={<Research />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>,

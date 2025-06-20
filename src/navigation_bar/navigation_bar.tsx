@@ -24,12 +24,12 @@ function Navigation_Bar() {
       </Button>
 
       <Button
-        className={`button ${isPathActive("/Projects") ? "active" : "not"}`}
+        className={`button ${isPathActive("/Research") ? "active" : "not"}`}
         onClick={() => {
-          navigate("/Projects");
+          navigate("/Research");
         }}
       >
-        Projects
+        Research
       </Button>
 
       <Button
