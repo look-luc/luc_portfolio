@@ -30,7 +30,7 @@ function App() {
           <div className="interest">
             <div className="about-me-title">Research Interest</div>
             <p className="about-body">
-              I am interested in nlp work for endangered and low resource
+              I am interested in NLP work for endangered and low resource
               languages. I am also particularly interested in semantics and
               phonetics side.
             </p>
