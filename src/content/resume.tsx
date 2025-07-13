@@ -10,7 +10,7 @@ function Resume(){
             <header className="resume-header">Resume</header>
             <div className='download_wrapper'>
                 <a href='/resume/resume.pdf' download="luc_resume.pdf">
-                    <Button className='button not'>
+                    <Button className='download_button not'>
                         Click here to download resume
                     </Button>
                 </a>
