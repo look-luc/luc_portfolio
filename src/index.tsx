@@ -6,6 +6,7 @@ import "./index.css";
 import App from "./App";
 import Contact from "./content/contact";
 import Research from "./content/research";
+import Resume from "./content/resume";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter, Route, Routes } from "react-router";
 
@@ -19,6 +20,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Research" element={<Research />} />
+        <Route path="/Resume" element={<Resume/>}/>
       </Routes>
     </HashRouter>
   </React.StrictMode>,
