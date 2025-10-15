@@ -7,6 +7,7 @@ import App from "./App";
 import Contact from "./content/contact";
 import Research from "./content/research";
 import Resume from "./content/resume";
+import Experience from "./content/experience";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter, Route, Routes } from "react-router";
 
@@ -20,6 +21,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Research" element={<Research />} />
+        <Route path="/Experience" element={<Experience />} />
         <Route path="/Resume" element={<Resume/>}/>
       </Routes>
     </HashRouter>

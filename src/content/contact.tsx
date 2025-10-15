@@ -11,7 +11,7 @@ function Contact() {
       <div className="email_cont">
         <div className="email">
           Email me at:
-          <p className="address">luc [dot] denardi [at] colorado [dot] edu</p>
+          <p className="address">luc.denardi@colorado.edu</p>
         </div>
       </div>
       <div className="social_cont">
