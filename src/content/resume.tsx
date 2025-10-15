@@ -2,18 +2,26 @@ import 'react'
 import './resume.css'
 import Navigation_Bar from "../navigation_bar/navigation_bar";
 import { Button } from 'react-bootstrap';
+import resume from '../assets/resume.pdf'
 
 function Resume(){
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = resume;
+        link.download = "luc_resume.pdf";
+        link.click();
+    };
     return(
         <div className='Resume'>
             <Navigation_Bar/>
             <header className="resume-header">Resume</header>
             <div className='download_wrapper'>
-                <a href='/resume/resume.pdf' download="luc_resume.pdf">
-                    <Button className='download_button not'>
-                        Click here to download resume
-                    </Button>
-                </a>
+                <Button
+                    className='download_button not'
+                    onClick={handleDownload}
+                >
+                    Click here to download resume
+                </Button>
             </div>
         </div>
         

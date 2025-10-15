@@ -13,7 +13,7 @@ function App() {
           <div className="about-me">
             <div className="about-me-title">About me</div>
             <p className="about-body">
-              I am an incoming Graduate student in the CLASIC program at the
+              I am a first year Graduate student in the CLASIC program at the
               University of Colorado Boulder.
             </p>
             <p className="about-body">
