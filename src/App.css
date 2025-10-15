@@ -17,7 +17,7 @@
 .App-header {
     font-size: calc(20px + 3vmin);
     color: black;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(253, 253, 253, 0.7);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 10px 20px;
@@ -50,7 +50,7 @@
 
 .about-me {
     max-width: 600px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 253, 253, 0.7);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 20px;
@@ -74,7 +74,7 @@
 .self-image {
     border-radius: 10px;
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(253, 253, 253, 0.7);
     object-fit: cover;
     border-radius: 10px;
     width: fit-content;
@@ -101,7 +101,7 @@
 
 .interest {
     max-width: 600px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(253, 253, 253, 0.7);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 20px;
