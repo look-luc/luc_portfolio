@@ -1,5 +1,6 @@
 import Navigation_Bar from "../navigation_bar/navigation_bar";
 import "./experience.css"
+import Footer from "../footer/footer";
 
 function Experience(){
     return(
@@ -9,19 +10,26 @@ function Experience(){
             <div className="main-wrapper">
                 <div className="experience-container">
                     <div className="experience">
-                        <div className="exp-title">
-                            SAFAL Conference [PI Dr. Bhuvana Narasimhan]
-                        </div>
+                        <span className="exp-title">
+                            SAFAL Conference @ Boulder, CO
+                        </span>
                         
                         <p>Paid technical student organizer</p>
                         <p>
-                            (Boulder, CO; September 2025-November 2025)<br/>
-                            I worked on updating website with presenters abstracts and making sure all of the participants and attendees are accounted for.  I also aided during the conference days and facilitate the Zoom room and asynchronous presentation
+                            <ul>
+                                <li>
+                                    Worked on updating website with abstracts and conference information
+                                </li>
+                                <li>
+                                    Aid during conference and facilitating Zoom and asynchronous presentation
+                                </li>
+                            </ul>
                         </p>
                         
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }
