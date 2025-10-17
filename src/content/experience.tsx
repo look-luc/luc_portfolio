@@ -9,7 +9,7 @@ function Experience(){
             <div className="main-wrapper">
                 <div className="experience-container">
                     <div className="experience">
-                        <div classname="title">
+                        <div className="title">
                             SAFAL Conference [PI Dr. Bhuvana Narasimhan]
                         </div>
                         
