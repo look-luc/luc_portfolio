@@ -115,8 +115,37 @@ function Research() {
           <div className="research-container">
             <div className="research">
               <div className="research-title">Current Research</div>
-              <p className="res-body" style={{ textAlign: "center" }}>
-                Currently none
+              <p className="res-body">
+                <span className="group-title">French Clear Speach:</span>
+                <ul>
+                  <li>
+                    Research Student Assistant
+                  </li>
+                  <li>
+                    Checking if clear speech in nasal vowels change against casual speech
+                  </li>
+                  <li>
+                    Creating/train a model to check specific values of both nasal and oral vowels
+                  </li>
+                  <li>
+                    <a href="https://github.com/look-luc/french_clear_speech.git">Github Repo</a>
+                  </li>
+                </ul>
+              </p>
+              <p className="res-body">
+                <span className="group-title">Spec Decoding</span>
+                <ul>
+                  <li>Research assistant</li>
+                  <li>Assisting in coding for low recourse language model for either</li>
+                  <ul>
+                    <li>
+                      knowledge distillation or trained for language modeling
+                    </li>
+                  </ul>
+                  <li>
+                    <a href="https://github.com/michaelpginn/spec-decoding.git">Github Repo</a>
+                  </li>
+                </ul>
               </p>
             </div>
           </div>
