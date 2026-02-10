@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/luc_portfolio/static/css/main.23e8bdee.css",
-    "main.js": "/luc_portfolio/static/js/main.74f404c3.js",
-    "static/js/453.57e39ff3.chunk.js": "/luc_portfolio/static/js/453.57e39ff3.chunk.js",
+    "main.css": "/luc_portfolio/static/css/main.54ab57a0.css",
+    "main.js": "/luc_portfolio/static/js/main.a9a7beae.js",
+    "static/js/453.ab561cb3.chunk.js": "/luc_portfolio/static/js/453.ab561cb3.chunk.js",
     "static/media/self.png": "/luc_portfolio/static/media/self.e0f765df70709ef23104.png",
-    "static/media/resume.pdf": "/luc_portfolio/static/media/resume.38583f8aaabe4c9c880d.pdf",
+    "static/media/resume.pdf": "/luc_portfolio/static/media/resume.015a4082bb6b78a2c024.pdf",
     "index.html": "/luc_portfolio/index.html",
-    "main.23e8bdee.css.map": "/luc_portfolio/static/css/main.23e8bdee.css.map",
-    "main.74f404c3.js.map": "/luc_portfolio/static/js/main.74f404c3.js.map",
-    "453.57e39ff3.chunk.js.map": "/luc_portfolio/static/js/453.57e39ff3.chunk.js.map"
+    "main.54ab57a0.css.map": "/luc_portfolio/static/css/main.54ab57a0.css.map",
+    "main.a9a7beae.js.map": "/luc_portfolio/static/js/main.a9a7beae.js.map",
+    "453.ab561cb3.chunk.js.map": "/luc_portfolio/static/js/453.ab561cb3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23e8bdee.css",
-    "static/js/main.74f404c3.js"
+    "static/css/main.54ab57a0.css",
+    "static/js/main.a9a7beae.js"
   ]
 }
