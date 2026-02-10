@@ -32,18 +32,30 @@ function Navigation_Bar() {
         Research
       </Button>
 
-        <Button
-          className={`button ${isPathActive("/Experience") ? "active":"not"}`}
-          onClick={()=>{navigate("/Experience")}}
-        >
-          Experience
-        </Button>
+      <Button
+        className={`button ${isPathActive("/Experience") ? "active" : "not"}`}
+        onClick={() => {
+          navigate("/Experience");
+        }}
+      >
+        Experience
+      </Button>
 
-      <Button 
-        className={`button ${isPathActive("/Resume") ? "active":"not"}`}
-        onClick={()=>{navigate("/Resume")}}
+      <Button
+        className={`button ${isPathActive("/Resume") ? "active" : "not"}`}
+        onClick={() => {
+          navigate("/Resume");
+        }}
       >
         Resume
+      </Button>
+      <Button
+        className={`button ${isPathActive("/Publications") ? "active" : "not"}`}
+        onClick={() => {
+          navigate("/Publications");
+        }}
+      >
+        Publications
       </Button>
       <Button
         className={`button ${isPathActive("/Contact") ? "active" : "not"}`}
