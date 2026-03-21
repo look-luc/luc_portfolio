@@ -21,8 +21,8 @@ function App() {
               and Computer Science at the University of Delaware.
             </p>
             <p className="about-body">
-              In my free time, I am play french horn; I am an avid musician and
-              perform with a local orchestra, along with a brazilian drum group.
+              In my free time I am an avid musician, playing french horning and
+              performing at university ensemble and local orchestra.
             </p>
           </div>
           <div className="self-image">
@@ -33,9 +33,8 @@ function App() {
           <div className="interest">
             <div className="about-me-title">Research Interest</div>
             <p className="about-body">
-              My research interest is in NLP research for endangered and low
-              resource languages. When it comes to the languages themselves, my
-              interests are in semantics and phonetics side.
+              My research focus is in NLP for endangered and low resource
+              languages. I am also interested in semantics and phonetics.
             </p>
           </div>
         </div>
