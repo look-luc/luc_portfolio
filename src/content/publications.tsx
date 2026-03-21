@@ -19,7 +19,7 @@ function Publications() {
               <p>
                 <ul>
                   <li>
-                    Accepted at EACL 2026 conference for AbjadNLP and LoResLM
+                    Presented at EACL 2026 conference for AbjadNLP and LoResLM
                     workshop
                   </li>
                 </ul>
