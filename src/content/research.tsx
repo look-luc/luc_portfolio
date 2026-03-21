@@ -128,14 +128,9 @@ function Research() {
                 <ul>
                   <li>Research assistant</li>
                   <li>
-                    Assisting in coding for low recourse language model for
-                    either
+                    Assisting in coding low recourse language model for either
+                    knowledge distillation or trained language model
                   </li>
-                  <ul>
-                    <li>
-                      knowledge distillation or trained for language modeling
-                    </li>
-                  </ul>
                   <li>
                     <a href="https://github.com/michaelpginn/spec-decoding.git">
                       Github Repo
