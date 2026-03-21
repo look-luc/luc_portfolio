@@ -65,3 +65,18 @@
     text-align: left;
     font-weight: normal;
 }
+
+/* Add to the bottom of publications.css */
+@media (max-width: 768px) {
+    .pub-title {
+        font-size: 24px;
+    }
+
+    .publication p {
+        font-size: 18px;
+    }
+
+    .pub-container {
+        gap: 20px;
+    }
+}

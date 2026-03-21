@@ -1,4 +1,4 @@
-.download_wrapper{
+.download_wrapper {
     border: none;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.15);
@@ -50,4 +50,16 @@
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     opacity: 0;
     animation: fadeIn 0.25s ease-in-out forwards;
+}
+
+/* Add to the bottom of resume.css */
+@media (max-width: 768px) {
+    .Resume {
+        gap: 40px; /* Reduced from 100px */
+    }
+
+    .download_button.not {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
 }

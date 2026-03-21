@@ -93,3 +93,24 @@
     font-weight: normal;
     margin: 0px;
 }
+
+/* Add to the bottom of contact.css */
+@media (max-width: 768px) {
+    .email_cont,
+    .social_cont {
+        margin: 20px auto; /* Centers the containers */
+        width: 90%;
+        padding: 10px;
+    }
+
+    .email,
+    .socials,
+    .socials a,
+    .email .address {
+        font-size: 20px; /* Reduced from 30px */
+    }
+
+    .email::before {
+        font-size: 30px;
+    }
+}
