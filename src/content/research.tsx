@@ -13,7 +13,7 @@ function Research() {
           <div className="research">
             <div className="research-title">Past Research</div>
             <p className="res-body">
-              <span className="group-title">Phonlab @ UDel (un-paid)</span>:
+              <span className="group-title">Phonlab @ UDel</span>:
               <ul>
                 <ul></ul>
                 <li>
@@ -35,7 +35,6 @@ function Research() {
                 <a href="https://sites.harvard.edu/phonlab/about/">
                   Phonlab @ Harvard University
                 </a>{" "}
-                (paid)
               </span>
               :
               <ul>
@@ -118,17 +117,19 @@ function Research() {
               <p className="res-body">
                 <span className="group-title">French Clear Speach:</span>
                 <ul>
+                  <li>Research Student Assistant</li>
                   <li>
-                    Research Student Assistant
+                    Checking if clear speech in nasal vowels change against
+                    casual speech
                   </li>
                   <li>
-                    Checking if clear speech in nasal vowels change against casual speech
+                    Creating/train a model to check specific values of both
+                    nasal and oral vowels
                   </li>
                   <li>
-                    Creating/train a model to check specific values of both nasal and oral vowels
-                  </li>
-                  <li>
-                    <a href="https://github.com/look-luc/french_clear_speech.git">Github Repo</a>
+                    <a href="https://github.com/look-luc/french_clear_speech.git">
+                      Github Repo
+                    </a>
                   </li>
                 </ul>
               </p>
@@ -136,14 +137,19 @@ function Research() {
                 <span className="group-title">Spec Decoding</span>
                 <ul>
                   <li>Research assistant</li>
-                  <li>Assisting in coding for low recourse language model for either</li>
+                  <li>
+                    Assisting in coding for low recourse language model for
+                    either
+                  </li>
                   <ul>
                     <li>
                       knowledge distillation or trained for language modeling
                     </li>
                   </ul>
                   <li>
-                    <a href="https://github.com/michaelpginn/spec-decoding.git">Github Repo</a>
+                    <a href="https://github.com/michaelpginn/spec-decoding.git">
+                      Github Repo
+                    </a>
                   </li>
                 </ul>
               </p>

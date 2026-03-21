@@ -20,12 +20,16 @@ function App() {
               I recieved my BA in Linguistics with minors in Cognitive Science
               and Computer Science at the University of Delaware.
             </p>
+            <p className="about-body">
+              I am a musician on my free time. I primarily play French Horn and
+              a instrument collector. I have been in several music ensembles
+              ranging from concert band to world music.
+            </p>
           </div>
           <div className="self-image">
             <img src={self_image} alt="self" width={"300"} />
           </div>
         </div>
-
         <div className="interest-container">
           <div className="interest">
             <div className="about-me-title">Research Interest</div>
