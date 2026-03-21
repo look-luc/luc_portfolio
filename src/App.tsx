@@ -21,8 +21,8 @@ function App() {
               and Computer Science at the University of Delaware.
             </p>
             <p className="about-body">
-              In my free time I am an avid musician, playing french horning and
-              performing at university ensemble and local orchestra.
+              In my free time I am an avid musician, playing french horn and
+              performing at university ensembles and local orchestras.
             </p>
           </div>
           <div className="self-image">
