@@ -17,18 +17,14 @@ function Research() {
               <span className="group-title">Phonlab @ UDel</span>:
               <ul>
                 <ul></ul>
+                <li>Coding from subject head/hand gestures video data</li>
                 <li>
-                  Assisting in coding from subject head/hand gestures video data
-                </li>
-                <li>
-                  Training in the structure and phases of co-speech gestures of
-                  the hands and head
+                  Structure and phases of co-speech gestures of hands and head
                 </li>
                 <li>
                   Application of a coding scheme in the annotation of gestures
                   for linguistical research
                 </li>
-                <li>transcribing Cameroonian English in Praat</li>
               </ul>
             </p>
             <p className="res-body">
@@ -40,19 +36,11 @@ function Research() {
               :
               <ul>
                 <li>
-                  Assisting looking at video data from a subject coding hand
-                  gestures & pointing task
+                  Analyzing video data from subjects & coding hand gestures &
+                  pointing task
                 </li>
-                <li>
-                  Training in the structure and phases of co-speech gestures of
-                  the hands and head
-                </li>
-                <li>
-                  Application of a coding scheme in the annotation of gestures
-                  for linguistics research
-                </li>
-                <li>Transcribing Cameroonian English in Praat</li>
                 <li>Translating consent form from English to French</li>
+                <li>Transcription Cameroonian English in Praat</li>
               </ul>
             </p>
             <p className="res-body">
@@ -64,7 +52,7 @@ function Research() {
               :
               <ul>
                 <li>
-                  Researched whether words that encode abstract conceptual
+                  Studied whether words that encode abstract conceptual
                   distinctions share sound patterns across languages
                 </li>
                 <ul>
@@ -80,7 +68,8 @@ function Research() {
                   </li>
                 </ul>
                 <li>
-                  Object symmetry perception with visual and auditory stimuli
+                  Developed object symmetry perception with visual and auditory
+                  stimuli
                 </li>
                 <ul>
                   <li>
@@ -120,12 +109,12 @@ function Research() {
                 <ul>
                   <li>Research Student Assistant</li>
                   <li>
-                    Checking if clear speech in nasal vowels change against
+                    Analyzing if clear speech in nasal vowels changes against
                     casual speech
                   </li>
                   <li>
-                    Creating/train a model to check specific values of both
-                    nasal and oral vowels
+                    Developing a model to check specific values of both nasal
+                    and oral vowels
                   </li>
                   <li>
                     <a href="https://github.com/look-luc/french_clear_speech.git">
@@ -139,14 +128,9 @@ function Research() {
                 <ul>
                   <li>Research assistant</li>
                   <li>
-                    Assisting in coding for low recourse language model for
-                    either
+                    Assisting in coding low recourse language model for either
+                    knowledge distillation or trained language model
                   </li>
-                  <ul>
-                    <li>
-                      knowledge distillation or trained for language modeling
-                    </li>
-                  </ul>
                   <li>
                     <a href="https://github.com/michaelpginn/spec-decoding.git">
                       Github Repo
