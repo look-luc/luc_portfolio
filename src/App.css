@@ -17,6 +17,7 @@
 
     .self-image img {
         width: 100%; /* Scales the image to fit the phone width */
+        height: auto;
         max-width: 300px;
         height: auto;
     }
