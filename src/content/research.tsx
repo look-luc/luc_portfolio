@@ -36,7 +36,7 @@ function Research() {
               :
               <ul>
                 <li>
-                  Analizing video data from subjects & coding hand gestures &
+                  Analyzing video data from subjects & coding hand gestures &
                   pointing task
                 </li>
                 <li>Translating consent form from English to French</li>
@@ -109,12 +109,12 @@ function Research() {
                 <ul>
                   <li>Research Student Assistant</li>
                   <li>
-                    Checking if clear speech in nasal vowels change against
+                    Analyzing if clear speech in nasal vowels changes against
                     casual speech
                   </li>
                   <li>
-                    Creating/train a model to check specific values of both
-                    nasal and oral vowels
+                    Developing a model to check specific values of both nasal
+                    and oral vowels
                   </li>
                   <li>
                     <a href="https://github.com/look-luc/french_clear_speech.git">
