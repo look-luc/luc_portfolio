@@ -1,3 +1,32 @@
+@media (max-width: 768px) {
+    .about-me-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about-me-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .about-body {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .self-image img {
+        width: 100%; /* Scales the image to fit the phone width */
+        max-width: 300px;
+        height: auto;
+    }
+
+    .main-wrapper {
+        margin-top: 120px; /* Gives more room for the stacked header */
+        padding: 0 15px;
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;

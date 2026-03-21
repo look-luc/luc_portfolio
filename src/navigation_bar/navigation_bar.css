@@ -1,3 +1,21 @@
+@media (max-width: 768px) {
+    .header {
+        right: 10px;
+        top: 10px;
+    }
+
+    .button-cont {
+        flex-direction: column; /* Stacks "Mission", "Team", etc. vertically */
+        align-items: flex-end;
+        gap: 3px;
+    }
+
+    .buttons {
+        font-size: 14px; /* Smaller text for mobile */
+        padding: 5px 10px;
+    }
+}
+
 .navigation_bar {
     display: flex;
     flex-wrap: wrap;

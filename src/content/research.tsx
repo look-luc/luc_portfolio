@@ -2,6 +2,7 @@ import React from "react";
 import "./research.css";
 import Navigation_Bar from "../navigation_bar/navigation_bar";
 import Footer from "../footer/footer";
+import "./exp_res.css";
 
 function Research() {
   return (
