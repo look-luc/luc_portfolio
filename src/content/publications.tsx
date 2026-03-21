@@ -18,10 +18,10 @@ function Publications() {
               <h4>K H Manodnya, De Nardi Luc. (2026)</h4>
               <p>
                 <ul>
-                  <li>Accepted at AbjadNLP and EACL 2026 conference</li>
-                  <li>Accepted at EACL 2026 workshop LoResLM</li>
-                  <li>Presented at EACL conference in Rabat Morocco</li>
-                  <li>Python ML packages</li>
+                  <li>
+                    Accepted at EACL 2026 conference for AbjadNLP and LoResLM
+                    workshop
+                  </li>
                 </ul>
               </p>
             </div>

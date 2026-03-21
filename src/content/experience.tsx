@@ -13,17 +13,13 @@ function Experience() {
           <div className="experience">
             <span className="exp-title">SAFAL Conference @ Boulder, CO</span>
 
-            <p>Paid technical student organizer</p>
+            <p>Technical student organizer</p>
             <p>
               <ul>
                 <li>
-                  Worked on updating website with abstracts and conference
-                  information
+                  Updating website with abstracts and conference information
                 </li>
-                <li>
-                  Aid during conference and facilitating Zoom and asynchronous
-                  presentation
-                </li>
+                <li>Facilitating Zoom and asynchronous presentation</li>
               </ul>
             </p>
           </div>
