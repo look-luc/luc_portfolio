@@ -22,7 +22,8 @@ function App() {
             </p>
             <p className="about-body">
               I am a musician on my free time. I primarily play French Horn and
-              a instrument collector.
+              a instrument collector. I have been in several music ensembles
+              ranging from concert band to world music.
             </p>
           </div>
           <div className="self-image">
