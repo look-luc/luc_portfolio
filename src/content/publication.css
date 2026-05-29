@@ -25,6 +25,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 code {
@@ -91,78 +96,86 @@ code {
     border-color: #ffbb00;
 }
 
-.Resume {
+.main-wrapper,
+.wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 100px;
     width: 100%;
-    margin-top: 40px;
+    max-width: 1200px;
+    margin-top: 80px;
+    opacity: 0;
+    animation: fadeIn 0.25s ease-in-out forwards;
 }
 
-.resume-header {
+.pub-header {
+    width: fit-content;
     font-size: calc(20px + 3vmin);
     color: black;
     background-color: rgba(253, 253, 253, 0.7);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 10px 20px;
+    margin: 10px auto;
     margin-top: 50px;
     border-radius: 12px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     opacity: 0;
     animation: fadeIn 0.25s ease-in-out forwards;
+    text-align: left;
 }
 
-.download_wrapper {
-    border: none;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    padding: 10px 10px;
-    display: block;
-    margin: 100px auto;
-    width: fit-content;
-}
-
-/* Base style for download button link */
-.download_button {
-    border: 1px solid transparent;
-    outline: none;
-    font-family: inherit;
-    text-align: center;
-    display: inline-flex;
+.pub-container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out;
+    gap: 40px;
+    width: 100%;
+    margin-top: 30px;
 }
 
-.download_button.not {
-    background-color: #00539f;
-    color: #ffd200;
-    cursor: pointer;
-    padding: 15px 30px;
-    font-size: 20px;
+.publication {
+    background-color: rgba(253, 253, 253, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    width: 90%;
+    max-width: fit-content;
+    font-weight: bold;
 }
 
-.download_button.not:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    background-color: #00539f;
-    color: #ffd200;
+.pub-title {
+    font-weight: bold;
+    font-size: 28px;
 }
 
+.publication h4 {
+    font-size: 18px;
+    font-weight: bold;
+    list-style-type: disc;
+}
+
+.publication ul li {
+    font-size: 24px;
+    font-weight: normal;
+    list-style-type: disc;
+    margin-bottom: 20px;
+}
+
+/* Add to the bottom of publications.css */
 @media (max-width: 768px) {
-    .Resume {
-        gap: 40px;
+    .pub-title {
+        font-size: 24px;
     }
 
-    .download_button.not {
-        padding: 10px 20px;
-        font-size: 16px;
+    .publication p {
+        font-size: 18px;
+    }
+
+    .pub-container {
+        gap: 20px;
     }
 }

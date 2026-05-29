@@ -1,4 +1,133 @@
-.Contact {
+@media (max-width: 768px) {
+    .header {
+        right: 10px;
+        top: 10px;
+    }
+
+    .button-cont {
+        flex-direction: column; /* Stacks "Mission", "Team", etc. vertically */
+        align-items: flex-end;
+        gap: 3px;
+    }
+
+    .button {
+        font-size: 14px; /* Smaller text for mobile */
+        padding: 5px 10px;
+    }
+    .about-me-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .about-me-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .about-body {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .self-image img {
+        width: 100%; /* Scales the image to fit the phone width */
+        height: auto;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .main-wrapper {
+        margin-top: 120px; /* Gives more room for the stacked header */
+        padding: 0 15px;
+    }
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #000080, #00ffff);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    margin-bottom: 50px;
+    margin: 0;
+    font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+code {
+    font-family:
+        source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.navigation_bar {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    justify-content: flex-end;
+    gap: 10px;
+
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.button {
+    border: 1px solid transparent;
+    outline: none;
+    font-family: inherit;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.button.not {
+    background-color: #00539f;
+    color: #ffd200;
+    cursor: pointer;
+}
+
+.button.not:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #00539f;
+    color: #ffd200;
+}
+
+.button.active {
+    background-color: #ffd200; /* Example: Green for the active button */
+    border-color: #ffd200;
+    font-weight: bold;
+    box-shadow: 0 0 0 0.2rem rgba(255, 210, 0, 0.5);
+}
+
+.button.active:hover {
+    background-color: #ffbb00;
+    border-color: #ffbb00;
+}
+
+main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +150,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 10px 20px;
-    margin-top: 10px;
+    margin-top: 50px;
     border-radius: 12px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 
