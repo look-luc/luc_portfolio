@@ -9,21 +9,17 @@
         <link rel="icon" type="image/x-icon" href="./public/favicon.ico" />
 
         <link rel="stylesheet" href="index.css" />
+
+        <script src="index.js" defer></script>
     </head>
     <body>
-        <script src="index.js" defer></script>
-
         <nav id="navbar" class="navigation_bar">
-            <button class="button active" data-path="/">About</button>
-            <button class="button not" data-path="/research">Research</button>
-            <button class="button not" data-path="/experience">
-                Experience
-            </button>
-            <button class="button not" data-path="/resume">Resume</button>
-            <button class="button not" data-path="/publication">
-                Publication
-            </button>
-            <button class="button not" data-path="/contact">Contact</button>
+            <a href="index.html" class="button active">About</a>
+            <a href="research.html" class="button not">Research</a>
+            <a href="experience.html" class="button not">Experience</a>
+            <a href="resume.html" class="button not">Resume</a>
+            <a href="publication.html" class="button not">Publication</a>
+            <a href="contact.html" class="button not">Contact</a>
         </nav>
         <header class="App-header">Luc De Nardi</header>
         <main>
@@ -63,8 +59,8 @@
             </div>
         </main>
         <footer>
-            Initially done in Typescript and React, Migrated to vanilla HTML,
-            CSS, and Javascript
+            @Luc De Nardi Initially done in Typescript and React, Migrated to
+            vanilla HTML, CSS, and Javascript
         </footer>
     </body>
 </html>

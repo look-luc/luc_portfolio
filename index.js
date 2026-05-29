@@ -1,13 +1,19 @@
-function updateNavigationStyles(currentActivePath) {
-  const navButtons = document.querySelectorAll("#navbar .button");
+document.addEventListener("DOMContentLoaded", () => {
+  let currentPage = window.location.pathname.split("/").pop();
+  if (currentPage === "" || currentPage === "/") {
+    currentPage = "index.html";
+  }
+  const navLinks = document.querySelectorAll(".navigation_bar a");
 
-  navButtons.forEach((button) => {
-    const buttonPath = button.getAttribute("data-path");
-    const isActive = buttonPath === currentActivePath;
+  navLinks.forEach((link) => {
+    const linkTarget = link.getAttribute("href");
 
-    // If isActive is true, adds "active" and removes "not".
-    // If false, removes "active" and adds "not".
-    button.classList.toggle("active", isActive);
-    button.classList.toggle("not", !isActive);
+    if (linkTarget === currentPage) {
+      link.classList.add("active");
+      link.classList.remove("not");
+    } else {
+      link.classList.remove("active");
+      link.classList.add("not");
+    }
   });
-}
+});
