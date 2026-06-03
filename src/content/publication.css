@@ -132,6 +132,7 @@ code {
     gap: 40px;
     width: 100%;
     margin-top: 30px;
+    padding-bottom: 100px;
 }
 
 .publication {
@@ -177,5 +178,29 @@ code {
 
     .pub-container {
         gap: 20px;
+    }
+}
+
+footer {
+    width: 100%;
+    margin-top: auto;
+    padding: 30px 20px;
+
+    background-color: var(--bg-glass);
+    backdrop-filter: var(--blur);
+    -webkit-backdrop-filter: var(--blur);
+    border-top: 1px solid rgba(0, 0, 0, 0.025);
+
+    text-align: center;
+    font-size: 14px;
+    color: #111;
+
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 30px;
+        padding: 20px 10px;
     }
 }
